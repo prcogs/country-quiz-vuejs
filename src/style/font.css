@@ -1,0 +1,12 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url('/fonts/Poppins-Regular.ttf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body {
+   font-size: 16px;
+   line-height: 24px;
+   font-family: Poppins, 'sans-serif';
+}

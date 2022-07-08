@@ -1,0 +1,19 @@
+{
+   "include": [
+     "./src/**/*"
+   ],
+   "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+          "components/*": [
+              "src/components/*"
+          ],
+          "static/*": [
+            "src/static"
+          ],
+          "api/*": [
+            "src/api"
+          ]
+      }
+  }
+}
