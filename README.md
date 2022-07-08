@@ -1,7 +1,34 @@
-# Vue 3 + Vite
+# Country quiz
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This quiz is an opportunity to visit the world. Find countries by their capital or flag.
 
-## Recommended IDE Setup
+This app work with an api to get information about countries: [Rest Countries](https://restcountries.com)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+### Prerequisites
+- Node.js version >=12.2.0
+
+
+### Built With
+   - [Vitejs](https://vitejs.dev/)
+   - [VueJs](https://vuejs.org/)
+
+
+### How to run the script
+
+To get started, just clone the repository and run `npm install && npm run dev`:
+
+```bash
+   git clone https://github.com/prcogs/country-quiz-vuejs
+```
+Create and fill the .env file: ```VITE_COUNTRY_API = https://restcountries.com/v3.1```
+
+```bash
+   npm install
+   npm run dev
+```
+
+
+## *Author Name*
+[@prcogs](https://github.com/prcogs)
+
